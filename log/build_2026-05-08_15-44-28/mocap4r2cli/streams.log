@@ -1,0 +1,23 @@
+[1.695s] Invoking command in '/home/mrg/mocap4r2_ws/build/mocap4r2cli': AMENT_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/mocap4r2_ws/build/mocap4r2cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrg/mocap4r2_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mrg/mocap4r2_ws/build/mocap4r2cli/build --no-deps symlink_data
+[2.163s] running develop
+[2.413s] running egg_info
+[2.413s] creating mocap4r2cli.egg-info
+[2.438s] writing mocap4r2cli.egg-info/PKG-INFO
+[2.438s] writing dependency_links to mocap4r2cli.egg-info/dependency_links.txt
+[2.439s] writing entry points to mocap4r2cli.egg-info/entry_points.txt
+[2.439s] writing requirements to mocap4r2cli.egg-info/requires.txt
+[2.439s] writing top-level names to mocap4r2cli.egg-info/top_level.txt
+[2.439s] writing manifest file 'mocap4r2cli.egg-info/SOURCES.txt'
+[2.490s] reading manifest file 'mocap4r2cli.egg-info/SOURCES.txt'
+[2.491s] writing manifest file 'mocap4r2cli.egg-info/SOURCES.txt'
+[2.518s] running build_ext
+[2.518s] Creating /home/mrg/mocap4r2_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli.egg-link (link to .)
+[2.519s] 
+[2.519s] Installed /home/mrg/mocap4r2_ws/build/mocap4r2cli
+[2.519s] running symlink_data
+[2.519s] symbolically linking /home/mrg/mocap4r2_ws/build/mocap4r2cli/package.xml -> /home/mrg/mocap4r2_ws/install/mocap4r2cli/share/mocap4r2cli
+[2.520s] creating /home/mrg/mocap4r2_ws/install/mocap4r2cli/share/ament_index
+[2.520s] creating /home/mrg/mocap4r2_ws/install/mocap4r2cli/share/ament_index/resource_index
+[2.520s] creating /home/mrg/mocap4r2_ws/install/mocap4r2cli/share/ament_index/resource_index/packages
+[2.520s] symbolically linking /home/mrg/mocap4r2_ws/build/mocap4r2cli/resource/mocap4r2cli -> /home/mrg/mocap4r2_ws/install/mocap4r2cli/share/ament_index/resource_index/packages
+[2.563s] Invoked command in '/home/mrg/mocap4r2_ws/build/mocap4r2cli' returned '0': AMENT_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/mocap4r2_ws/build/mocap4r2cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mrg/mocap4r2_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mrg/mocap4r2_ws/build/mocap4r2cli/build --no-deps symlink_data

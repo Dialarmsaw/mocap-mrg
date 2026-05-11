@@ -1,0 +1,78 @@
+[0.013s] Invoking command in '/home/mrg/mocap4r2_ws/build/rqt_mocap4r2_control': AMENT_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mrg/mocap4r2_ws/src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control
+[0.067s] -- The C compiler identification is GNU 13.3.0
+[0.123s] -- The CXX compiler identification is GNU 13.3.0
+[0.149s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.257s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.257s] -- Detecting C compile features - done
+[0.267s] -- Detecting CXX compiler ABI info
+[0.380s] -- Detecting CXX compiler ABI info - done
+[0.390s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.390s] -- Detecting CXX compile features
+[0.391s] -- Detecting CXX compile features - done
+[0.392s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.548s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.634s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.664s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.706s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.720s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.736s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.841s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.844s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.945s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.970s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.003s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.090s] -- Found qt_gui_cpp: 2.7.6 (/opt/ros/jazzy/share/qt_gui_cpp/cmake)
+[1.107s] -- Found rqt_gui_cpp: 1.6.3 (/opt/ros/jazzy/share/rqt_gui_cpp/cmake)
+[1.111s] -- Found mocap4r2_control: 0.0.7 (/home/mrg/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/cmake)
+[1.245s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.409s] -- Configuring done (1.4s)
+[1.434s] -- Generating done (0.0s)
+[1.438s] -- Build files have been written to: /home/mrg/mocap4r2_ws/build/rqt_mocap4r2_control
+[1.450s] Invoked command in '/home/mrg/mocap4r2_ws/build/rqt_mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mrg/mocap4r2_ws/src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control
+[1.451s] Invoking command in '/home/mrg/mocap4r2_ws/build/rqt_mocap4r2_control': AMENT_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mrg/mocap4r2_ws/build/rqt_mocap4r2_control -- -j20 -l20
+[1.506s] [ 12%] [34m[1mGenerating ui_mocap4r2_control.h[0m
+[1.506s] [ 37%] [34m[1mGenerating include/rqt_mocap4r2_control/moc_mocap4r2_control.cpp[0m
+[1.506s] [ 37%] [34m[1mGenerating include/rqt_mocap4r2_control/moc_SystemController.cpp[0m
+[1.511s] /home/mrg/mocap4r2_ws/src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control/include/rqt_mocap4r2_control/SystemController.hpp:0: Note: No relevant classes found. No output generated.
+[1.551s] [ 50%] [32mBuilding CXX object CMakeFiles/rqt_mocap4r2_control.dir/include/rqt_mocap4r2_control/moc_mocap4r2_control.cpp.o[0m
+[1.551s] [ 62%] [32mBuilding CXX object CMakeFiles/rqt_mocap4r2_control.dir/src/rqt_mocap4r2_control/SystemController.cpp.o[0m
+[1.552s] [ 75%] [32mBuilding CXX object CMakeFiles/rqt_mocap4r2_control.dir/include/rqt_mocap4r2_control/moc_SystemController.cpp.o[0m
+[1.554s] [ 87%] [32mBuilding CXX object CMakeFiles/rqt_mocap4r2_control.dir/src/rqt_mocap4r2_control/mocap4r2_control.cpp.o[0m
+[15.159s] [100%] [32m[1mLinking CXX shared library librqt_mocap4r2_control.so[0m
+[16.861s] [100%] Built target rqt_mocap4r2_control
+[16.876s] Invoked command in '/home/mrg/mocap4r2_ws/build/rqt_mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mrg/mocap4r2_ws/build/rqt_mocap4r2_control -- -j20 -l20
+[16.879s] Invoking command in '/home/mrg/mocap4r2_ws/build/rqt_mocap4r2_control': AMENT_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mrg/mocap4r2_ws/build/rqt_mocap4r2_control
+[16.889s] -- Install configuration: ""
+[16.890s] -- Execute custom install script
+[16.890s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/lib/rqt_mocap4r2_control/rqt_mocap4r2_control
+[16.901s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/include/rqt_mocap4r2_control/SystemController.hpp
+[16.914s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/include/rqt_mocap4r2_control/mocap4r2_control.hpp
+[16.928s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/include/rqt_mocap4r2_control/utils.hpp
+[16.941s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/plugin.xml
+[16.954s] -- Up-to-date symlink: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control//plugin.xml
+[16.954s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/environment/library_path.sh
+[16.968s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/environment/library_path.dsv
+[16.980s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/ament_index/resource_index/package_run_dependencies/rqt_mocap4r2_control
+[16.992s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/ament_index/resource_index/parent_prefix_path/rqt_mocap4r2_control
+[17.012s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/environment/ament_prefix_path.sh
+[17.027s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/environment/ament_prefix_path.dsv
+[17.043s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/environment/path.sh
+[17.054s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/environment/path.dsv
+[17.064s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/local_setup.bash
+[17.079s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/local_setup.sh
+[17.090s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/local_setup.zsh
+[17.107s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/local_setup.dsv
+[17.119s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/package.dsv
+[17.130s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/ament_index/resource_index/packages/rqt_mocap4r2_control
+[17.143s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/ament_index/resource_index/rqt_gui__pluginlib__plugin/rqt_mocap4r2_control
+[17.154s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.168s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[17.182s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/cmake/rqt_mocap4r2_controlConfig.cmake
+[17.193s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/cmake/rqt_mocap4r2_controlConfig-version.cmake
+[17.207s] -- Symlinking: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/share/rqt_mocap4r2_control/package.xml
+[17.220s] -- Installing: /home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/lib/rqt_mocap4r2_control/librqt_mocap4r2_control.so
+[17.226s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/rqt_mocap4r2_control/lib/rqt_mocap4r2_control/librqt_mocap4r2_control.so" to ""
+[17.229s] Invoked command in '/home/mrg/mocap4r2_ws/build/rqt_mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mrg/mocap4r2_ws/build/rqt_mocap4r2_control

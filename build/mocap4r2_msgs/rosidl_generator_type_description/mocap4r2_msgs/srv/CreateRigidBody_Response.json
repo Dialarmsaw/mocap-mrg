@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "mocap4r2_msgs/srv/CreateRigidBody_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "mocap4r2_msgs/srv/CreateRigidBody_Response",
+      "hash_string": "RIHS01_20ae2428055ad9da21ab85ed7c52102f1a223f40f39bc217c13bc1919305bf5c"
+    }
+  ]
+}

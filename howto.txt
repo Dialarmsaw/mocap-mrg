@@ -1,0 +1,1 @@
+edit ./src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/config/movap4r2_optitrack_driver_params.yaml to set ip's and change the name for the rigidbody you want, link to cloned repo is https://github.com/MOCAP4ROS2-Project/mocap4ros2_optitrack

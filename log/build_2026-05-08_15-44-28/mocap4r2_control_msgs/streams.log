@@ -1,0 +1,240 @@
+[0.011s] Invoking command in '/home/mrg/mocap4r2_ws/build/mocap4r2_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mrg/mocap4r2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs
+[0.054s] -- The C compiler identification is GNU 13.3.0
+[0.098s] -- The CXX compiler identification is GNU 13.3.0
+[0.110s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.188s] -- Detecting C compile features
+[0.188s] -- Detecting C compile features - done
+[0.196s] -- Detecting CXX compiler ABI info
+[0.277s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.285s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.389s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.443s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.459s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.462s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.522s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.524s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.533s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.545s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.062s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.444s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.973s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.975s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.081s] -- Found PythonExtra: /usr/bin/python3  
+[2.421s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.505s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.512s] -- Configuring done (2.5s)
+[2.538s] -- Generating done (0.0s)
+[2.547s] -- Build files have been written to: /home/mrg/mocap4r2_ws/build/mocap4r2_control_msgs
+[2.555s] Invoked command in '/home/mrg/mocap4r2_ws/build/mocap4r2_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mrg/mocap4r2_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs
+[2.556s] Invoking command in '/home/mrg/mocap4r2_ws/build/mocap4r2_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mrg/mocap4r2_ws/build/mocap4r2_control_msgs -- -j20 -l20
+[2.595s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.598s] [  4%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.600s] [  4%] Built target ament_cmake_python_symlink_mocap4r2_control_msgs
+[2.783s] running egg_info
+[2.784s] creating mocap4r2_control_msgs.egg-info
+[2.796s] writing mocap4r2_control_msgs.egg-info/PKG-INFO
+[2.797s] writing dependency_links to mocap4r2_control_msgs.egg-info/dependency_links.txt
+[2.797s] writing top-level names to mocap4r2_control_msgs.egg-info/top_level.txt
+[2.797s] writing manifest file 'mocap4r2_control_msgs.egg-info/SOURCES.txt'
+[2.836s] reading manifest file 'mocap4r2_control_msgs.egg-info/SOURCES.txt'
+[2.836s] writing manifest file 'mocap4r2_control_msgs.egg-info/SOURCES.txt'
+[2.858s] [  4%] Built target ament_cmake_python_build_mocap4r2_control_msgs_egg
+[2.861s] [  4%] Built target mocap4r2_control_msgs__rosidl_generator_type_description
+[2.871s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.882s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.889s] [  8%] Built target mocap4r2_control_msgs__rs
+[3.234s] [ 11%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/control__description.c.o[0m
+[3.235s] [ 13%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/mocap_info__type_support.c.o[0m
+[3.236s] [ 15%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/mocap_info__functions.c.o[0m
+[3.236s] [ 17%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/control__functions.c.o[0m
+[3.237s] [ 20%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/mocap_info__description.c.o[0m
+[3.244s] [ 22%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/control__type_support.c.o[0m
+[3.244s] [ 22%] Built target mocap4r2_control_msgs__cpp
+[3.294s] [ 24%] [32m[1mLinking C shared library libmocap4r2_control_msgs__rosidl_generator_c.so[0m
+[3.324s] [ 24%] Built target mocap4r2_control_msgs__rosidl_generator_c
+[3.334s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.334s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.339s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.339s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.340s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.342s] [ 37%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.750s] [ 40%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_control_msgs/msg/control__type_support.cpp.o[0m
+[3.751s] [ 42%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_control_msgs/msg/detail/mocap_info__type_support.cpp.o[0m
+[3.752s] [ 44%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_control_msgs/msg/mocap_info__type_support.cpp.o[0m
+[3.753s] [ 46%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_control_msgs/msg/detail/control__type_support.cpp.o[0m
+[3.793s] [ 48%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_control_msgs/msg/detail/control__type_support.c.o[0m
+[3.797s] [ 51%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_control_msgs/msg/detail/mocap_info__type_support.c.o[0m
+[3.832s] [ 53%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_control_msgs/msg/mocap_info__type_support.cpp.o[0m
+[3.836s] [ 55%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_control_msgs/msg/control__type_support.cpp.o[0m
+[3.854s] [ 57%] [32m[1mLinking CXX shared library libmocap4r2_control_msgs__rosidl_typesupport_c.so[0m
+[3.894s] [ 60%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_control_msgs/msg/detail/dds_fastrtps/mocap_info__type_support.cpp.o[0m
+[3.899s] [ 62%] [32m[1mLinking C shared library libmocap4r2_control_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.906s] [ 64%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_control_msgs/msg/detail/dds_fastrtps/control__type_support.cpp.o[0m
+[3.911s] [ 66%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_control_msgs/msg/detail/control__type_support_c.cpp.o[0m
+[3.920s] [ 68%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_control_msgs/msg/detail/mocap_info__type_support_c.cpp.o[0m
+[3.975s] [ 68%] Built target mocap4r2_control_msgs__rosidl_typesupport_c
+[3.986s] [ 68%] Built target mocap4r2_control_msgs__rosidl_typesupport_introspection_c
+[4.446s] [ 71%] [32m[1mLinking CXX shared library libmocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.448s] [ 73%] [32m[1mLinking CXX shared library libmocap4r2_control_msgs__rosidl_typesupport_cpp.so[0m
+[4.553s] [ 73%] Built target mocap4r2_control_msgs__rosidl_typesupport_cpp
+[4.577s] [ 73%] Built target mocap4r2_control_msgs__rosidl_typesupport_introspection_cpp
+[4.642s] [ 75%] [32m[1mLinking CXX shared library libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.695s] [ 77%] [32m[1mLinking CXX shared library libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.744s] [ 77%] Built target mocap4r2_control_msgs__rosidl_typesupport_fastrtps_c
+[4.900s] [ 77%] Built target mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp
+[4.934s] [ 77%] Built target mocap4r2_control_msgs
+[4.986s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.541s] [ 80%] Built target mocap4r2_control_msgs__py
+[5.573s] [ 82%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_control_msgs/msg/_control_s.c.o[0m
+[5.579s] [ 84%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_control_msgs/msg/_mocap_info_s.c.o[0m
+[6.001s] [ 86%] [32m[1mLinking C shared library libmocap4r2_control_msgs__rosidl_generator_py.so[0m
+[6.094s] [ 86%] Built target mocap4r2_control_msgs__rosidl_generator_py
+[6.137s] [ 88%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/mocap4r2_control_msgs/_mocap4r2_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.146s] [ 91%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/mocap4r2_control_msgs/_mocap4r2_control_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.155s] [ 93%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/mocap4r2_control_msgs/_mocap4r2_control_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.396s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/mocap4r2_control_msgs/mocap4r2_control_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.450s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/mocap4r2_control_msgs/mocap4r2_control_msgs_s__rosidl_typesupport_c.so[0m
+[6.512s] [ 97%] Built target mocap4r2_control_msgs_s__rosidl_typesupport_fastrtps_c
+[6.519s] [ 97%] Built target mocap4r2_control_msgs_s__rosidl_typesupport_c
+[6.579s] [100%] [32m[1mLinking C shared module rosidl_generator_py/mocap4r2_control_msgs/mocap4r2_control_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[6.667s] [100%] Built target mocap4r2_control_msgs_s__rosidl_typesupport_introspection_c
+[6.700s] Invoked command in '/home/mrg/mocap4r2_ws/build/mocap4r2_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mrg/mocap4r2_ws/build/mocap4r2_control_msgs -- -j20 -l20
+[6.704s] Invoking command in '/home/mrg/mocap4r2_ws/build/mocap4r2_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mrg/mocap4r2_ws/build/mocap4r2_control_msgs
+[6.734s] -- Install configuration: ""
+[6.737s] -- Execute custom install script
+[6.738s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/ament_index/resource_index/rosidl_interfaces/mocap4r2_control_msgs
+[6.763s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/msg/Control.json
+[6.783s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/msg/MocapInfo.json
+[6.809s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/control.h
+[6.831s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__functions.h
+[6.850s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__struct.h
+[6.870s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__type_support.h
+[6.890s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__functions.h
+[6.909s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__struct.h
+[6.944s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__type_support.h
+[6.974s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/mocap_info.h
+[7.001s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.034s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/environment/library_path.sh
+[7.060s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/environment/library_path.dsv
+[7.081s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__rosidl_typesupport_fastrtps_c.h
+[7.109s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__rosidl_typesupport_fastrtps_c.h
+[7.128s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.145s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__rosidl_typesupport_introspection_c.h
+[7.165s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__rosidl_typesupport_introspection_c.h
+[7.185s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.203s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/control.hpp
+[7.218s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__builder.hpp
+[7.249s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__struct.hpp
+[7.275s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__traits.hpp
+[7.302s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__type_support.hpp
+[7.318s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__builder.hpp
+[7.338s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__struct.hpp
+[7.357s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__traits.hpp
+[7.385s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__type_support.hpp
+[7.405s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/mocap_info.hpp
+[7.421s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.444s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__rosidl_typesupport_fastrtps_cpp.hpp
+[7.474s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__rosidl_typesupport_fastrtps_cpp.hpp
+[7.503s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.525s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/control__rosidl_typesupport_introspection_cpp.hpp
+[7.545s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/include/mocap4r2_control_msgs/mocap4r2_control_msgs/msg/detail/mocap_info__rosidl_typesupport_introspection_cpp.hpp
+[7.569s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/environment/pythonpath.sh
+[7.588s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/environment/pythonpath.dsv
+[7.613s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs-0.0.7-py3.12.egg-info/PKG-INFO
+[7.634s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs-0.0.7-py3.12.egg-info/SOURCES.txt
+[7.656s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs-0.0.7-py3.12.egg-info/dependency_links.txt
+[7.674s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs-0.0.7-py3.12.egg-info/top_level.txt
+[7.693s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/__init__.py
+[7.713s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/_mocap4r2_control_msgs_s.ep.rosidl_typesupport_c.c
+[7.743s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/_mocap4r2_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.765s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/_mocap4r2_control_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.783s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/mocap4r2_control_msgs_s__rosidl_typesupport_c.so
+[7.803s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/mocap4r2_control_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.825s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/mocap4r2_control_msgs_s__rosidl_typesupport_introspection_c.so
+[7.843s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/msg/__init__.py
+[7.872s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/msg/_control.py
+[7.889s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/msg/_control_s.c
+[7.906s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/msg/_mocap_info.py
+[7.922s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/msg/_mocap_info_s.c
+[7.939s] -- Up-to-date symlink: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/mocap4r2_control_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.939s] -- Up-to-date symlink: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/mocap4r2_control_msgs_s__rosidl_typesupport_introspection_c.so
+[7.941s] -- Up-to-date symlink: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/mocap4r2_control_msgs_s__rosidl_typesupport_c.so
+[7.941s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/ament_index/resource_index/rust_packages/mocap4r2_control_msgs
+[7.959s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/rust/Cargo.toml
+[7.975s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/rust/build.rs
+[7.994s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/rust/src/lib.rs
+[8.011s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/rust/src/msg.rs
+[8.029s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/rust/src/msg/rmw.rs
+[8.050s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/msg/Control.idl
+[8.067s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/msg/MocapInfo.idl
+[8.085s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/msg/Control.msg
+[8.108s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/msg/MocapInfo.msg
+[8.125s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/mocap4r2_control_bridge_mapping_rule.yaml
+[8.144s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/ament_index/resource_index/package_run_dependencies/mocap4r2_control_msgs
+[8.161s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/ament_index/resource_index/parent_prefix_path/mocap4r2_control_msgs
+[8.177s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/environment/ament_prefix_path.sh
+[8.193s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/environment/ament_prefix_path.dsv
+[8.209s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/environment/path.sh
+[8.224s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/environment/path.dsv
+[8.239s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/local_setup.bash
+[8.253s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/local_setup.sh
+[8.269s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/local_setup.zsh
+[8.285s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/local_setup.dsv
+[8.302s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/package.dsv
+[8.318s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/ament_index/resource_index/packages/mocap4r2_control_msgs
+[8.337s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/rosidl_cmake-extras.cmake
+[8.352s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.368s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.383s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.402s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.417s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.432s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.449s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/mocap4r2_control_msgsConfig.cmake
+[8.469s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/mocap4r2_control_msgsConfig-version.cmake
+[8.485s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/package.xml
+[8.501s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_c.so
+[8.502s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_c.so" to ""
+[8.502s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.so
+[8.504s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.504s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_introspection_c.so
+[8.505s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.509s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_c.so
+[8.509s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_c.so" to ""
+[8.509s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.510s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.510s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.so
+[8.511s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.512s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_cpp.so
+[8.514s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_typesupport_cpp.so" to ""
+[8.605s] Listing '/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs'...
+[8.605s] Compiling '/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/__init__.py'...
+[8.605s] Listing '/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/msg'...
+[8.605s] Compiling '/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/msg/__init__.py'...
+[8.605s] Compiling '/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/msg/_control.py'...
+[8.606s] Compiling '/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages/mocap4r2_control_msgs/msg/_mocap_info.py'...
+[8.617s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_py.so
+[8.618s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/libmocap4r2_control_msgs__rosidl_generator_py.so" to ""
+[8.618s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/export_mocap4r2_control_msgs__rosidl_generator_cExport.cmake
+[8.619s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/export_mocap4r2_control_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.619s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/export_mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.620s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/export_mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.620s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/mocap4r2_control_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.620s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/mocap4r2_control_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.621s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/mocap4r2_control_msgs__rosidl_typesupport_cExport.cmake
+[8.621s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/mocap4r2_control_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.622s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/export_mocap4r2_control_msgs__rosidl_generator_cppExport.cmake
+[8.622s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/export_mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.623s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/export_mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.623s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/mocap4r2_control_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.624s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/mocap4r2_control_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.625s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/mocap4r2_control_msgs__rosidl_typesupport_cppExport.cmake
+[8.625s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/mocap4r2_control_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.625s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/export_mocap4r2_control_msgs__rosidl_generator_pyExport.cmake
+[8.626s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake/export_mocap4r2_control_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.633s] Invoked command in '/home/mrg/mocap4r2_ws/build/mocap4r2_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mrg/mocap4r2_ws/build/mocap4r2_control_msgs

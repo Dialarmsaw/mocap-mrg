@@ -1,0 +1,80 @@
+[0.014s] Invoking command in '/home/mrg/mocap4r2_ws/build/mocap4r2_optitrack_driver': AMENT_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/mocap4r2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mrg/mocap4r2_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver
+[0.061s] -- The C compiler identification is GNU 13.3.0
+[0.121s] -- The CXX compiler identification is GNU 13.3.0
+[0.138s] -- Detecting C compiler ABI info
+[0.242s] -- Detecting C compiler ABI info - done
+[0.251s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.252s] -- Detecting C compile features
+[0.252s] -- Detecting C compile features - done
+[0.260s] -- Detecting CXX compiler ABI info
+[0.378s] -- Detecting CXX compiler ABI info - done
+[0.390s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.390s] -- Detecting CXX compile features
+[0.391s] -- Detecting CXX compile features - done
+[0.393s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.559s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.646s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.677s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.719s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.733s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.750s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.769s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.852s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.855s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.955s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.980s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.009s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.096s] -- Found rclcpp_lifecycle: 28.1.18 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.134s] -- Found tf2: 0.36.20 (/opt/ros/jazzy/share/tf2/cmake)
+[1.181s] -- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.336s] -- Found mocap4r2_msgs: 0.2.0 (/home/mrg/mocap4r2_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[1.374s] -- Found mocap4r2_control_msgs: 0.0.7 (/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake)
+[1.403s] -- Found mocap4r2_control: 0.0.7 (/home/mrg/mocap4r2_ws/install/mocap4r2_control/share/mocap4r2_control/cmake)
+[1.433s] -- Found ament_cmake_copyright: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_copyright/cmake)
+[1.435s] -- Found ament_cmake_cppcheck: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[1.437s] -- Found ament_cmake_cpplint: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[1.439s] -- Found ament_cmake_lint_cmake: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_lint_cmake/cmake)
+[1.442s] -- Found ament_cmake_xmllint: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_xmllint/cmake)
+[1.444s] -- Found ament_cmake_uncrustify: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[1.452s] -- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.572s] -- Configuring done (1.6s)
+[1.611s] -- Generating done (0.0s)
+[1.618s] -- Build files have been written to: /home/mrg/mocap4r2_ws/build/mocap4r2_optitrack_driver
+[1.632s] Invoked command in '/home/mrg/mocap4r2_ws/build/mocap4r2_optitrack_driver' returned '0': AMENT_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/mocap4r2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mrg/mocap4r2_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver
+[1.633s] Invoking command in '/home/mrg/mocap4r2_ws/build/mocap4r2_optitrack_driver': AMENT_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/mocap4r2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mrg/mocap4r2_ws/build/mocap4r2_optitrack_driver -- -j20 -l20
+[1.720s] [ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_optitrack_driver.dir/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp.o[0m
+[11.098s] [ 50%] [32m[1mLinking CXX static library libmocap4r2_optitrack_driver.a[0m
+[11.200s] [ 50%] Built target mocap4r2_optitrack_driver
+[11.237s] [ 75%] [32mBuilding CXX object CMakeFiles/mocap4r2_optitrack_driver_main.dir/src/mocap4r2_optitrack_driver_main.cpp.o[0m
+[15.733s] [100%] [32m[1mLinking CXX executable mocap4r2_optitrack_driver_main[0m
+[16.319s] [100%] Built target mocap4r2_optitrack_driver_main
+[16.336s] Invoked command in '/home/mrg/mocap4r2_ws/build/mocap4r2_optitrack_driver' returned '0': AMENT_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/mocap4r2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mrg/mocap4r2_ws/build/mocap4r2_optitrack_driver -- -j20 -l20
+[16.339s] Invoking command in '/home/mrg/mocap4r2_ws/build/mocap4r2_optitrack_driver': AMENT_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/mocap4r2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mrg/mocap4r2_ws/build/mocap4r2_optitrack_driver
+[16.350s] -- Install configuration: ""
+[16.350s] -- Execute custom install script
+[16.351s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/include//mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.hpp
+[16.365s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/launch/optitrack2.launch.py
+[16.379s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/config/mocap4r2_optitrack_driver_params.yaml
+[16.394s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/lib/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver_main
+[16.408s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/lib/libmocap4r2_optitrack_driver.a
+[16.421s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/library_path.sh
+[16.436s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/library_path.dsv
+[16.453s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/ament_index/resource_index/package_run_dependencies/mocap4r2_optitrack_driver
+[16.465s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/ament_index/resource_index/parent_prefix_path/mocap4r2_optitrack_driver
+[16.479s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/ament_prefix_path.sh
+[16.492s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/ament_prefix_path.dsv
+[16.504s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/path.sh
+[16.519s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/environment/path.dsv
+[16.533s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/local_setup.bash
+[16.546s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/local_setup.sh
+[16.562s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/local_setup.zsh
+[16.575s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/local_setup.dsv
+[16.588s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/package.dsv
+[16.603s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/ament_index/resource_index/packages/mocap4r2_optitrack_driver
+[16.619s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.633s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[16.645s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.659s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/mocap4r2_optitrack_driverConfig.cmake
+[16.671s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/cmake/mocap4r2_optitrack_driverConfig-version.cmake
+[16.684s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_optitrack_driver/share/mocap4r2_optitrack_driver/package.xml
+[16.700s] Invoked command in '/home/mrg/mocap4r2_ws/build/mocap4r2_optitrack_driver' returned '0': AMENT_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mrg/mocap4r2_ws/install/mocap4r2_control/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_msgs/lib:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mrg/mocap4r2_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/mrg/mocap4r2_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mrg/mocap4r2_ws/build/mocap4r2_optitrack_driver

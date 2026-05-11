@@ -1,0 +1,18 @@
+{
+  "package_name": "mocap4r2_msgs",
+  "output_dir": "/home/mrg/mocap4r2_ws/build/mocap4r2_msgs/rosidl_generator_type_description/mocap4r2_msgs",
+  "idl_tuples": [
+    "/home/mrg/mocap4r2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/Marker.idl",
+    "/home/mrg/mocap4r2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/Markers.idl",
+    "/home/mrg/mocap4r2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/ImusInfo.idl",
+    "/home/mrg/mocap4r2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/RigidBody.idl",
+    "/home/mrg/mocap4r2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:msg/RigidBodies.idl",
+    "/home/mrg/mocap4r2_ws/build/mocap4r2_msgs/rosidl_adapter/mocap4r2_msgs:srv/CreateRigidBody.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

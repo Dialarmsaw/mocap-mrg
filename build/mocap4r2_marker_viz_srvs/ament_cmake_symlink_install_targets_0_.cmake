@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/mrg/mocap4r2_ws/build/mocap4r2_marker_viz_srvs/rosidl_generator_py/mocap4r2_marker_viz_srvs/mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "mocap4r2_marker_viz_srvs_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/mocap4r2_marker_viz_srvs")

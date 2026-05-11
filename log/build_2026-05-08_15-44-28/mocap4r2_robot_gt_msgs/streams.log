@@ -1,0 +1,210 @@
+[0.009s] Invoking command in '/home/mrg/mocap4r2_ws/build/mocap4r2_robot_gt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mrg/mocap4r2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs
+[0.049s] -- The C compiler identification is GNU 13.3.0
+[0.088s] -- The CXX compiler identification is GNU 13.3.0
+[0.100s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.175s] -- Detecting C compile features - done
+[0.183s] -- Detecting CXX compiler ABI info
+[0.259s] -- Detecting CXX compiler ABI info - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.270s] -- Detecting CXX compile features
+[0.271s] -- Detecting CXX compile features - done
+[0.272s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.378s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.433s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.452s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.455s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.495s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.523s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.525s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.535s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.547s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.070s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.467s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.981s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.983s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.090s] -- Found PythonExtra: /usr/bin/python3  
+[2.426s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.507s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.514s] -- Configuring done (2.5s)
+[2.539s] -- Generating done (0.0s)
+[2.547s] -- Build files have been written to: /home/mrg/mocap4r2_ws/build/mocap4r2_robot_gt_msgs
+[2.556s] Invoked command in '/home/mrg/mocap4r2_ws/build/mocap4r2_robot_gt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mrg/mocap4r2_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs
+[2.556s] Invoking command in '/home/mrg/mocap4r2_ws/build/mocap4r2_robot_gt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mrg/mocap4r2_ws/build/mocap4r2_robot_gt_msgs -- -j20 -l20
+[2.592s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.595s] [  5%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.596s] [  5%] Built target ament_cmake_python_symlink_mocap4r2_robot_gt_msgs
+[2.754s] running egg_info
+[2.755s] creating mocap4r2_robot_gt_msgs.egg-info
+[2.761s] [  5%] Built target mocap4r2_robot_gt_msgs__rs
+[2.766s] writing mocap4r2_robot_gt_msgs.egg-info/PKG-INFO
+[2.766s] writing dependency_links to mocap4r2_robot_gt_msgs.egg-info/dependency_links.txt
+[2.766s] writing top-level names to mocap4r2_robot_gt_msgs.egg-info/top_level.txt
+[2.767s] writing manifest file 'mocap4r2_robot_gt_msgs.egg-info/SOURCES.txt'
+[2.794s] [  5%] Built target mocap4r2_robot_gt_msgs__rosidl_generator_type_description
+[2.802s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.806s] reading manifest file 'mocap4r2_robot_gt_msgs.egg-info/SOURCES.txt'
+[2.807s] writing manifest file 'mocap4r2_robot_gt_msgs.egg-info/SOURCES.txt'
+[2.815s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.831s] [ 11%] Built target ament_cmake_python_build_mocap4r2_robot_gt_msgs_egg
+[3.030s] [ 14%] [32mBuilding C object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support.c.o[0m
+[3.031s] [ 17%] [32mBuilding C object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__description.c.o[0m
+[3.032s] [ 20%] [32mBuilding C object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__functions.c.o[0m
+[3.033s] [ 20%] Built target mocap4r2_robot_gt_msgs__cpp
+[3.094s] [ 22%] [32m[1mLinking C shared library libmocap4r2_robot_gt_msgs__rosidl_generator_c.so[0m
+[3.136s] [ 22%] Built target mocap4r2_robot_gt_msgs__rosidl_generator_c
+[3.146s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.146s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.146s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.147s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.147s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.147s] [ 40%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.452s] [ 42%] [32mBuilding CXX object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_robot_gt_msgs/srv/set_gt_origin__type_support.cpp.o[0m
+[3.495s] [ 45%] [32mBuilding C object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support.c.o[0m
+[3.515s] [ 48%] [32mBuilding CXX object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_robot_gt_msgs/srv/set_gt_origin__type_support.cpp.o[0m
+[3.565s] [ 51%] [32m[1mLinking CXX shared library libmocap4r2_robot_gt_msgs__rosidl_typesupport_c.so[0m
+[3.583s] [ 54%] [32mBuilding CXX object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support.cpp.o[0m
+[3.585s] [ 57%] [32mBuilding CXX object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_robot_gt_msgs/srv/detail/dds_fastrtps/set_gt_origin__type_support.cpp.o[0m
+[3.621s] [ 60%] [32m[1mLinking C shared library libmocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.630s] [ 62%] [32mBuilding CXX object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support_c.cpp.o[0m
+[3.661s] [ 62%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_c
+[3.681s] [ 62%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_c
+[4.129s] [ 65%] [32m[1mLinking CXX shared library libmocap4r2_robot_gt_msgs__rosidl_typesupport_cpp.so[0m
+[4.250s] [ 68%] [32m[1mLinking CXX shared library libmocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.279s] [ 68%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_cpp
+[4.384s] [ 71%] [32m[1mLinking CXX shared library libmocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.409s] [ 71%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp
+[4.470s] [ 74%] [32m[1mLinking CXX shared library libmocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.565s] [ 74%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cpp
+[4.615s] [ 74%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c
+[4.649s] [ 74%] Built target mocap4r2_robot_gt_msgs
+[4.669s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.280s] [ 77%] Built target mocap4r2_robot_gt_msgs__py
+[5.307s] [ 80%] [32mBuilding C object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_robot_gt_msgs/srv/_set_gt_origin_s.c.o[0m
+[5.514s] [ 82%] [32m[1mLinking C shared library libmocap4r2_robot_gt_msgs__rosidl_generator_py.so[0m
+[5.622s] [ 82%] Built target mocap4r2_robot_gt_msgs__rosidl_generator_py
+[5.654s] [ 85%] [32mBuilding C object CMakeFiles/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/mocap4r2_robot_gt_msgs/_mocap4r2_robot_gt_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.655s] [ 88%] [32mBuilding C object CMakeFiles/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/mocap4r2_robot_gt_msgs/_mocap4r2_robot_gt_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.660s] [ 91%] [32mBuilding C object CMakeFiles/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/mocap4r2_robot_gt_msgs/_mocap4r2_robot_gt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.873s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_c.so[0m
+[5.877s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[5.923s] [100%] [32m[1mLinking C shared module rosidl_generator_py/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.938s] [100%] Built target mocap4r2_robot_gt_msgs_s__rosidl_typesupport_c
+[5.955s] [100%] Built target mocap4r2_robot_gt_msgs_s__rosidl_typesupport_introspection_c
+[5.991s] [100%] Built target mocap4r2_robot_gt_msgs_s__rosidl_typesupport_fastrtps_c
+[6.014s] Invoked command in '/home/mrg/mocap4r2_ws/build/mocap4r2_robot_gt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mrg/mocap4r2_ws/build/mocap4r2_robot_gt_msgs -- -j20 -l20
+[6.033s] Invoking command in '/home/mrg/mocap4r2_ws/build/mocap4r2_robot_gt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mrg/mocap4r2_ws/build/mocap4r2_robot_gt_msgs
+[6.048s] -- Install configuration: ""
+[6.049s] -- Execute custom install script
+[6.050s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/ament_index/resource_index/rosidl_interfaces/mocap4r2_robot_gt_msgs
+[6.077s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/srv/SetGTOrigin.json
+[6.098s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.126s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__functions.h
+[6.142s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__struct.h
+[6.159s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support.h
+[6.177s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/set_gt_origin.h
+[6.200s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/environment/library_path.sh
+[6.216s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/environment/library_path.dsv
+[6.243s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.272s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__rosidl_typesupport_fastrtps_c.h
+[6.295s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.315s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__rosidl_typesupport_introspection_c.h
+[6.338s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.361s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__builder.hpp
+[6.379s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__struct.hpp
+[6.410s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__traits.hpp
+[6.428s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support.hpp
+[6.447s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/set_gt_origin.hpp
+[6.479s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.497s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__rosidl_typesupport_fastrtps_cpp.hpp
+[6.516s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/include/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__rosidl_typesupport_introspection_cpp.hpp
+[6.546s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/environment/pythonpath.sh
+[6.567s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/environment/pythonpath.dsv
+[6.588s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs-0.0.7-py3.12.egg-info/PKG-INFO
+[6.607s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs-0.0.7-py3.12.egg-info/SOURCES.txt
+[6.643s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs-0.0.7-py3.12.egg-info/dependency_links.txt
+[6.670s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs-0.0.7-py3.12.egg-info/top_level.txt
+[6.702s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/__init__.py
+[6.722s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/_mocap4r2_robot_gt_msgs_s.ep.rosidl_typesupport_c.c
+[6.739s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/_mocap4r2_robot_gt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.760s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/_mocap4r2_robot_gt_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.777s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_c.so
+[6.808s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_fastrtps_c.so
+[6.841s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_introspection_c.so
+[6.875s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/srv/__init__.py
+[6.901s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/srv/_set_gt_origin.py
+[6.923s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/srv/_set_gt_origin_s.c
+[6.942s] -- Up-to-date symlink: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_fastrtps_c.so
+[6.942s] -- Up-to-date symlink: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_introspection_c.so
+[6.943s] -- Up-to-date symlink: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs_s__rosidl_typesupport_c.so
+[6.943s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/ament_index/resource_index/rust_packages/mocap4r2_robot_gt_msgs
+[6.965s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/rust/Cargo.toml
+[6.999s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/rust/build.rs
+[7.015s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/rust/src/lib.rs
+[7.039s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/rust/src/srv.rs
+[7.064s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/rust/src/srv/rmw.rs
+[7.089s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/srv/SetGTOrigin.idl
+[7.114s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/srv/SetGTOrigin.srv
+[7.135s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/ament_index/resource_index/package_run_dependencies/mocap4r2_robot_gt_msgs
+[7.160s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/ament_index/resource_index/parent_prefix_path/mocap4r2_robot_gt_msgs
+[7.177s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/environment/ament_prefix_path.sh
+[7.199s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/environment/ament_prefix_path.dsv
+[7.218s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/environment/path.sh
+[7.237s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/environment/path.dsv
+[7.260s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/local_setup.bash
+[7.276s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/local_setup.sh
+[7.299s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/local_setup.zsh
+[7.321s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/local_setup.dsv
+[7.341s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/package.dsv
+[7.358s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/ament_index/resource_index/packages/mocap4r2_robot_gt_msgs
+[7.376s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/rosidl_cmake-extras.cmake
+[7.393s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.411s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.429s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.446s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.466s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.483s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.501s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgsConfig.cmake
+[7.518s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgsConfig-version.cmake
+[7.536s] -- Symlinking: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/package.xml
+[7.552s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_generator_c.so
+[7.553s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_generator_c.so" to ""
+[7.554s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c.so
+[7.555s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.555s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_c.so
+[7.556s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.557s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_c.so
+[7.558s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_c.so" to ""
+[7.558s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.559s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.560s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp.so
+[7.560s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.560s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_cpp.so
+[7.561s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_typesupport_cpp.so" to ""
+[7.675s] Listing '/home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs'...
+[7.675s] Compiling '/home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/__init__.py'...
+[7.676s] Listing '/home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/srv'...
+[7.676s] Compiling '/home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/srv/__init__.py'...
+[7.676s] Compiling '/home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/python3.12/site-packages/mocap4r2_robot_gt_msgs/srv/_set_gt_origin.py'...
+[7.692s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_generator_py.so
+[7.693s] -- Set non-toolchain portion of runtime path of "/home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/lib/libmocap4r2_robot_gt_msgs__rosidl_generator_py.so" to ""
+[7.693s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_generator_cExport.cmake
+[7.693s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.694s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.694s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.694s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.694s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.694s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgs__rosidl_typesupport_cExport.cmake
+[7.694s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.695s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_generator_cppExport.cmake
+[7.695s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.695s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.695s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.695s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.696s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgs__rosidl_typesupport_cppExport.cmake
+[7.696s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/mocap4r2_robot_gt_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.696s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_generator_pyExport.cmake
+[7.696s] -- Installing: /home/mrg/mocap4r2_ws/install/mocap4r2_robot_gt_msgs/share/mocap4r2_robot_gt_msgs/cmake/export_mocap4r2_robot_gt_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.702s] Invoked command in '/home/mrg/mocap4r2_ws/build/mocap4r2_robot_gt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mrg/mocap4r2_ws/build/mocap4r2_robot_gt_msgs

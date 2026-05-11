@@ -1,0 +1,11 @@
+{
+  "package_name": "mocap4r2_msgs",
+  "non_idl_tuples": [
+    "/home/mrg/mocap4r2_ws/src/mocap_msgs:msg/Marker.msg",
+    "/home/mrg/mocap4r2_ws/src/mocap_msgs:msg/Markers.msg",
+    "/home/mrg/mocap4r2_ws/src/mocap_msgs:msg/ImusInfo.msg",
+    "/home/mrg/mocap4r2_ws/src/mocap_msgs:msg/RigidBody.msg",
+    "/home/mrg/mocap4r2_ws/src/mocap_msgs:msg/RigidBodies.msg",
+    "/home/mrg/mocap4r2_ws/src/mocap_msgs:srv/CreateRigidBody.srv"
+  ]
+}
